@@ -1,9 +1,9 @@
 // The values of the UpdateRate constants are the number of processor ticks between time checks
-enum UpdateRate: unsigned long {
-  UpdateRateMicrosecond = 10,
-  UpdateRateMillisecond = UpdateRateMicrosecond * 1000,
-  UpdateRateSecond = UpdateRateMillisecond * 1000,
-  UpdateRateMinute = UpdateRateSecond * 60
+enum UpdateRate: unsigned int {
+  UpdateRateMicrosecond,
+  UpdateRateMillisecond,
+  UpdateRateSecond,
+  UpdateRateMinute
 };
 
 // The return object from stopWatch
